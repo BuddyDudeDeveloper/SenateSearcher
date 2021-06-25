@@ -26,7 +26,7 @@ class Main {
                 minMatchCharLength: 1,
                 keys: [
                   "data.first_name",
-                  "data.last_Name",
+                  "data.last_name",
                   "data.state"
               ]});
 
