@@ -1,0 +1,115 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    color: rgb(225, 225, 225);
+    min-width: 300px;
+    font-size: 11pt;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    background-color:rgb(225, 225, 225); 
+}
+
+.info {
+    float: right;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.state {
+    font-weight: 500;
+}
+
+p {
+    line-height: calc(110px / 4);
+    margin: 0;
+    padding-right: 5px;
+    text-align: right;
+}
+
+i {
+    float: left;
+    margin-left: auto;
+}
+
+a {
+    line-height: calc(110px / 4);
+    margin: 0;
+    padding-right: 5px;
+    text-align: right;
+    color: lightblue;
+    width: inherit;
+    display: block;
+}
+
+.republican {
+    background-image: linear-gradient(to right, #B22234, #721520)
+}
+
+.democrat {
+    background-image: linear-gradient(to right, #3C3B6E, #19182d);
+}
+
+.other {
+    background-image: linear-gradient(to right, rgb(50, 50, 50), rgb(25, 25, 25));
+}
+
+
+img {
+    top: 50%;
+    position: absolute;
+    margin: 0;
+    transform: translateY(-50%);
+}
+
+header {
+    background-color: rgb(225, 225, 225);
+    color: black;
+}
+
+#fade {
+    opacity:    0.75; 
+  background: #000; 
+  width:      100%;
+  height:     100%; 
+  top:        0; 
+  left:       0; 
+  position:   fixed; 
+}
+
+#search-bar {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: auto;
+    background-color: rgb(225, 225, 225);
+    border: none;
+    color: black;
+    display: block;
+    font-size: 14pt;
+}
+
+#senator-list {
+    overflow-y: scroll;
+    height: calc(100vh - 24px);
+}
+
+.list-item {
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom: none;
+    height: 110px;
+    border-color: rgba(0, 0, 0, .75)
+}
+
+#popup-content {
+    position: absolute;
+  top: 50%;
+  height: 110px;
+  margin-top: -55px;
+}
