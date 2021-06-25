@@ -1,7 +1,7 @@
 class Main {
     static load() {
         Main.senators = [];
-        fetch("https://api.propublica.org/congress/v1/115/senate/members.json", {
+        fetch("https://api.propublica.org/congress/v1/117/senate/members.json", {
             method: "GET",
             headers: {
                 "X-API-KEY": "LZQ5kk9w5bQ9bcvGD1A0dNQX9QgAIAVtb86N1v0V"
